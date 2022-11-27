@@ -1,1 +1,8 @@
 # BUS445 - Assignment 2
+
+1. Describe the key steps, following the “rapid model development” framework, that you went through in arriving at your final model, and why you took those steps.
+The key steps are those that advanced your data cleaning, model and assessment development. Clear communication is important. Your audience for this question understands technical jargon (like the case protagonist, John). For example, to explain how you make R recognize a blank space in a factor variable as NA, you refer to your use of na.string = “” in the command read.csv("vcRRSP.csv",stringsAsFactors = TRUE, na.strings = ""). Another example is a comment that the data set does not have a specific data issue discussed in Chapter 10 and you thus do not need to do anything about it. Such a comment can show to your technical audience the thoroughness of your work. As a rough guide, aim for 3 pages of 12-point text, plus as many pages as you need for figures, including the final model’s lift chart. Use point form where it seems appropriate (60 points).
+
+2. Discuss what the most important five predictors are, how each of them would affect the target, and whether it makes intuitive sense or not. Your audience for this question is smart managers with strong domain knowledge and limited technical knowledge (i.e. John’s bosses). (20 points)
+
+3. Using the costs and contribution in Table 2A below, recommend the percentage of members (ie., the “best X%” ) who should be contacted to maximize profit after contact costs, and report what this expected profit is. Included a table showing your calculations. (20 points)
